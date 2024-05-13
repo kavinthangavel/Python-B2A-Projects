@@ -1,8 +1,11 @@
 def translate(sentence):
     letter = ""
     for n in sentence:
-        if n in "AEIOUaeiou":
-            letter +="g"
+        if n.lower() in "aeiou":
+            if n.isupper():
+                letter +="G"
+            else:
+                letter +="g"
         else:
             letter +=n
     return letter
