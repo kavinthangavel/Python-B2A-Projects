@@ -1,4 +1,5 @@
 import os
+
 print("Guess the Word: A Two Player Game")
 while True:
     word = input("Enter the Word : ")

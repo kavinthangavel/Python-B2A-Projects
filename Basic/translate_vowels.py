@@ -9,5 +9,6 @@ def translate(sentence):
         else:
             letter +=n
     return letter
+
 sentence = input("Enter the sentence or word : ")
 print(translate(sentence))
