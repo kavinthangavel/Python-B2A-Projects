@@ -1,3 +1,4 @@
+import os
 print("Guess the Word: A Two Player Game")
 while True:
     word = input("Enter the Word : ")
@@ -6,6 +7,7 @@ while True:
         break
     else:
         print("Please enter a valid word")
+os.system("cls")   # clear the screen for the second player (above basic level)
 guess_count = 3
 while guess_count > 0:
     guess = input(f"Guess the Word ({guess_count} remaining): ")
