@@ -16,9 +16,9 @@ while guess_count > 0:
         print("Here's the Hint : " + hint)
     elif not guess:
         print("Please enter a word !!")
-        guess_count += 1
     elif guess != word :
         print("Sorry! Wrong Word.")
+        guess_count += 1
     guess_count -= 1
 else:
     print(f"You've Failed to Guess the Word : {word}")
