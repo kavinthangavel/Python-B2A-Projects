@@ -10,7 +10,7 @@ This repository contains a collection of Python projects I've been working on to
 2. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/kavinthangavel/python-b2a-projects
+   git clone https://github.com/kavinthangavel/Python-B2A-Projects
    ```
 
 3. **Explore the Projects**: Navigate to the directory of the project you want to explore.
