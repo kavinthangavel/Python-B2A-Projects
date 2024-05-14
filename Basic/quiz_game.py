@@ -1,4 +1,3 @@
-
 # This is a simple quiz game that asks the user questions and checks if the answer is correct or not.
 class Questions:
 
